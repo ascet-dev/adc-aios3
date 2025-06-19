@@ -1,6 +1,6 @@
-# AioS3
+# ADC-AioS3
 
-AioS3 is a modern, async-first S3 client library for Python that provides a clean and intuitive interface for working with S3-compatible storage services.
+ADC-AioS3 is a modern, async-first S3 client library for Python that provides a clean and intuitive interface for working with S3-compatible storage services.
 
 ## Features
 
@@ -14,14 +14,14 @@ AioS3 is a modern, async-first S3 client library for Python that provides a clea
 ## Installation
 
 ```bash
-pip install aios3
+pip install adc-aios3
 ```
 
 ## Quick Start
 
 ```python
 import asyncio
-from aios3 import S3Client
+from adc_aios3 import S3Client
 
 async def main():
     # Create and start the client
@@ -51,7 +51,7 @@ if __name__ == "__main__":
 
 ## Documentation
 
-For more detailed documentation, visit [aios3.readthedocs.io](https://aios3.readthedocs.io/).
+For more detailed documentation, visit [adc-aios3.readthedocs.io](https://adc-aios3.readthedocs.io/).
 
 ## License
 

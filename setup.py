@@ -20,7 +20,7 @@ def get_packages(package):
 
 
 setup(
-    name='aios3',
+    name='adc-aios3',
     version='0.1.0',
     url='https://github.com/ascet-dev/adc-aios3',
     python_requires='>=3.8',
@@ -32,7 +32,7 @@ setup(
     description='Async S3 client with lifecycle management',
     long_description=get_long_description(),
     long_description_content_type='text/markdown',
-    packages=get_packages('aios3'),
+    packages=get_packages('adc_aios3'),
     include_package_data=True,
     data_files=[('', [])],
     classifiers=[
